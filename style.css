@@ -1,0 +1,60 @@
+body {
+  max-width: 100%;
+  height: 900px;
+  background: url("./aniversario.jpg") no-repeat center center;
+  background-size: cover;
+}
+.contagem {
+  font-family: "Vollkorn", Georgia, serif;
+  display: flex;
+  align-items: flex-start;
+}
+
+.contagem > div {
+  width: 100%;
+  text-align: center;
+  background: linear-gradient(135deg, #d22676, #edb2ac) rgba(0, 0, 0);
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
+  position: relative;
+}
+
+#data {
+  display: block;
+  color: #ecacaa;
+  max-width: 100%;
+  font-size: 3em;
+  margin: 10px auto;
+  padding: 10px;
+  line-height: 1;
+}
+
+.falta {
+  display: flex;
+  flex-shrink: 1;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+#span {
+  display: block;
+  color: #d22676;
+  border-radius: 0 0 5px 5px;
+  padding: 5px 0;
+  position: relative;
+  top: 2px;
+  border-radius: 5px;
+}
+
+.dias {
+  margin-right: 25px;
+}
+
+.minutos {
+  margin-left: 20px;
+}
+
+.segundos {
+  margin-left: 15px;
+}
